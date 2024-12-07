@@ -1,12 +1,12 @@
 import React from 'react'
 import Hero from './hero/Hero'
-import About from '../about/About'
+import AboutCard from '../about/AboutCard'
 
 const Home = () => {
   return (
     <>
     <Hero/>
-    <About/>
+    <AboutCard/>
     </>
   )
 }
