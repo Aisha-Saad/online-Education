@@ -1,0 +1,24 @@
+
+
+.CourseCard{
+  padding: 50px 0;
+}
+
+.CourseCard .items{
+  padding: 30px;
+  text-align: center;
+}
+
+.CourseCard .img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: brown;
+  padding: 15px;
+}
+
+.CourseCard img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
