@@ -32,7 +32,7 @@ const CourseCard = () => {
                       <>
                       <div className="box">
                         <div className="dimg">
-                          <img src={details.dcovor} alt="" />
+                          <img src={details.dcover} alt="" />
                         </div>
                         <div className="parp">
                           <h4>{details.name}</h4>
@@ -44,6 +44,12 @@ const CourseCard = () => {
                   </div>
                 </div>
               </div>
+              <div className="price">
+                <h3>
+                  {val.priceAll}/{val.pricePer}
+                </h3>
+              </div>
+              <button className='outline-btn'>ENROLL NOW!</button>
             </div>
             )
           })}

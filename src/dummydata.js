@@ -44,11 +44,11 @@ export const awrapper = [
 export const coursesCard = [
   {
     id: 1,
-    cover: "../images/courses/c1.png",
+    cover: "../images/c1.jpg",
     coursesName: "Introducing to Software Engineering",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
+        dcover: "../images/c1.jpg",
         name: "by John Smith",
         totalTime: "50 lectures (190 hrs)",
       },
@@ -58,7 +58,7 @@ export const coursesCard = [
   },
   {
     id: 2,
-    cover: "../images/courses/c2.png",
+    cover: "../images/c1.jpg",
     coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
     courTeacher: [
       {
