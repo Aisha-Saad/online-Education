@@ -11,7 +11,7 @@ const AboutCard = () => {
     <section className='aboutHome'>
       <div className="container flexSB">
         <div className="left row">
-          <img src="./img/hero.jpg" alt="" />
+          <img src="./images/hero.jpg" alt="" />
         </div>
         <div className="right row">
           <Title subtitle="Learn anything" title="Benefits about online learning "/>

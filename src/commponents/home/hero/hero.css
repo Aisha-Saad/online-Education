@@ -1,6 +1,6 @@
 
 .hero{
-  background-image: url(../../../../public/img/hero.jpg);
+  background-image: url(../../../../public/images/hero.jpg);
   background-size: cover;
   background-attachment:fixed ;
   position: absolute;
