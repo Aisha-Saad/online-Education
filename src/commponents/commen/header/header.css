@@ -7,7 +7,11 @@
   font-size: 35px;
   font-weight: 600;
 }
-
+.logo span{
+  font-weight: 500;
+  font-style:oblique;
+  color: rgb(29, 29, 30);
+}
 .head .icon{
   margin-left: 10px;
 }
@@ -16,8 +20,9 @@
 /*========= HEADER =======*/
 
 header{
-  background-color: rgb(87, 42, 53);
+  background-color: rgba(234, 232, 232, 0.731);
   margin: 0 30px;
+  
 }
 
 header ul {
@@ -30,13 +35,13 @@ header li{
 }
 
 header ul li {
-  color: #fff;
+  color: #000000;
   font-weight: 500;
   transition: 0.5s;
 }
 
 header ul li:hover{
-  color: rgb(179, 177, 177);
+  color: rgb(83, 82, 82);
   cursor: pointer;
 }
 

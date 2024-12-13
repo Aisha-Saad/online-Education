@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../../commen/title/Title'
-import{ coursesCard} from '../../../../src/dummydata'
+import{ coursesCard} from '../../../dummydata'
 
 const HAbout = () => {
   return (
