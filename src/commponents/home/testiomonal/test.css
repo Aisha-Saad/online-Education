@@ -1,0 +1,38 @@
+.testimonal .items{
+  padding: 30px;
+  transition: 0.5s;
+}
+
+.testimonal .img{
+  position: relative;
+}
+
+.testimonal img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonal i{
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  /* background-color: #fff; */
+}
+
+.testimonal .name{
+  text-align: center;
+}
+
+.testimonal .name h2{
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+.testimonal  .name span{
+  padding-left: 15px;
+}
+.testimonal p{
+  margin-top: 20px;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './hero/Hero'
 import AboutCard from '../about/AboutCard'
 import HAbout from './hero/HAbout'
+import Test from './testiomonal/Test'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
     <Hero/>
     <AboutCard/>
     <HAbout/>
+    <Test/>
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from "./Head";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from "react-router-dom";
 
 const Heading = () => {
   const [click, setClick]=useState(false)
