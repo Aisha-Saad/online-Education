@@ -20,7 +20,7 @@
 /*========= HEADER =======*/
 
 header{
-  background-color: rgba(234, 232, 232, 0.731);
+  background-color: rgba(211, 209, 209, 0.934);
   margin: 0 30px;
   
 }
@@ -77,6 +77,7 @@ header ul li:hover{
   header ul li{
     margin-bottom: 20px;
     padding-left: 45px;
+    color: #fff;
   }
 
   .toggle{
@@ -95,6 +96,7 @@ header ul li:hover{
     left: 0;
     width: 100%;
     background-color:rgb(74, 15, 25) ;
+    
   }
   .button{
     font-size: 18px;
