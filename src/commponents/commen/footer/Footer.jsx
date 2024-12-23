@@ -24,7 +24,7 @@ const Footer = () => {
       </section>
 
       <footer>
-        <div className="contaner padding">
+        <div className="container padding">
           <div className="box logo">
             <h1>Academia</h1>
             <span>online education & learning</span>
@@ -71,14 +71,41 @@ const Footer = () => {
                     <img src={val.cover} alt="" />
                   </div>
                   <div className="text">
-                    <span></span>
+                    <span>
+                      <i className="fa fa-user"></i>
+                      <label htmlFor="">{val.type}</label>
+                    </span>
+                    <span>
+                      <label htmlFor="">{val.date}</label>
+                    </span>
+                    <h4>{val.title}</h4>
                   </div>
                 </div>
               )
             })}
           </div>
+          <div className="box last">
+            <h3>Have a qustion</h3>
+            <ul>
+              <li>
+                <i className=" fa fa-map"></i>
+                203 fake address ,Jeedah
+              </li>
+              <li>
+                <i className="fa fa-phone-alt"></i>
+                05555550000
+              </li>
+              <li>
+                <i className="fa fa-paper-plane"></i>
+                info@gmail.com
+              </li>
+            </ul>
+          </div>
         </div>
       </footer>
+      <div className="legal">
+        <p>Copyright @2024 reserved</p>
+      </div>
     </>
   );
 };
