@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "./Head";
 import { Link } from "react-router-dom";
 
+
 const Heading = () => {
   const [click, setClick]=useState(false)
   return (
@@ -11,16 +12,25 @@ const Heading = () => {
         <nav className="flexSB">
           <ul className={click ? "mobile-nav" :"flexSB" } onClick={()=> setClick(false)}>
             <li>
-              <Link to="/"></Link>Home
+              <Link to="/" className="link">Home</Link>
             </li>
             <li>
-              <Link to="/courses"></Link>All courses
+              <Link to="/courses" className="link">All courses</Link>
             </li>
             <li>
-              <Link to="/about"></Link>About
+              <Link to="/about" className="link">About</Link>
             </li>
             <li>
-              <Link to="/team"></Link>team
+              <Link to="/team" className="link">team</Link>
+            </li>
+            <li>
+              <Link to="/pricing" className="link">pricing</Link>
+            </li>
+            <li>
+              <Link to="/blog" className="link">blog</Link>
+            </li>
+            <li>
+              <Link to="/contact" className="link">contact</Link>
             </li>
           </ul>
           <div className="start">

@@ -110,3 +110,10 @@ footer .last ul li{
   padding: 50px 0;
   color: #fff;
 }
+
+@media(max-width: 768px){
+  footer .container{
+    grid-template-columns: 2fr ;
+    grid-gap: 15px;
+  }
+}

@@ -62,7 +62,7 @@ const HAbout = () => {
       </div>
         </div>
       </section>
-      {/* <OnlineCourses/> */}
+      <OnlineCourses/>
     </>
   )
 }

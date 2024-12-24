@@ -20,27 +20,39 @@
 /*========= HEADER =======*/
 
 header{
-  background-color: rgba(211, 209, 209, 0.934);
+  background-color: rgba(211, 209, 209, 0.607);
   margin: 0 30px;
+  
+
+  
   
 }
 
 header ul {
   padding: 30px 20px;
+  
+  
 }
 
 header li{
   margin-right: 40px;
+  
 
 }
 
 header ul li {
   color: #000000;
+
+  
+}
+ .link{
+  color: #000000;
   font-weight: 500;
   transition: 0.5s;
-}
+ }
 
-header ul li:hover{
+
+.link:hover{
   color: rgb(83, 82, 82);
   cursor: pointer;
 }
@@ -72,6 +84,9 @@ header ul li:hover{
   header ul.flexSB{
     display: none;
     
+  }
+  .link{
+    color: #fff;
   }
 
   header ul li{
