@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Aisha-Saad/static/css/main.d6e13077.css",
+    "main.js": "/Aisha-Saad/static/js/main.b48c6305.js",
+    "static/js/453.ed3810f9.chunk.js": "/Aisha-Saad/static/js/453.ed3810f9.chunk.js",
+    "static/media/about.jpg": "/Aisha-Saad/static/media/about.f3b522149b90243ff7ef.jpg",
+    "static/media/AW.jpg": "/Aisha-Saad/static/media/AW.f311c6ce60be5fb5381c.jpg",
+    "static/media/hero.jpg": "/Aisha-Saad/static/media/hero.55a29b6edb2a074b1930.jpg",
+    "index.html": "/Aisha-Saad/index.html",
+    "main.d6e13077.css.map": "/Aisha-Saad/static/css/main.d6e13077.css.map",
+    "main.b48c6305.js.map": "/Aisha-Saad/static/js/main.b48c6305.js.map",
+    "453.ed3810f9.chunk.js.map": "/Aisha-Saad/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6e13077.css",
+    "static/js/main.b48c6305.js"
+  ]
+}
